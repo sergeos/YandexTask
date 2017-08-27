@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS Tutorial</title>
+    <style>
+        .error {
+            border: 1px solid red
+        }
+    </style>
+</head>
+
+<body>
+
+    <form action="progress.json" id="myForm" novalidate>
+        <input type="text" name="fio" required placeholder="ФИО"><br/><br/>
+        <input type="text" name="email" required placeholder="Email" pattern="^([a-z0-9_\.-]+)@(?=(ya.ru|yandex.com|yandex.ru|yandex.by|yandex.ua|yandex.kz))\2"><br/><br/>
+        <input type="text" name="phone" required placeholder="Телефон"><br/><br/>
+        <input type="submit" value="submitButton"><br/><br/>
+    </form>
+
+    <div id="resultContainer">
+        <!-- <li v-show="!validation">Не корректный домен емеилa! Допускаются только домены yandex.</li> -->
+    </div>
+
+    <script>
+        console.log('hello')
+    </script>
+    <script src="index.js"></script>
+</body>
+
+</html>
